@@ -72,14 +72,14 @@ def setSheetData(ip, sheet, index):
     sheet.write(i, 3, speedStr)
     sheet.write(i, 4, lostStr)
     print("finish %s %s" % (ip[0], ip[2]))
-    mutex.release()# 释放锁   
+    mutex.release() # 释放锁   
     
 threads = [] 
 if 0==len(IPList):
     print("no data")
 else:
     print("start:", getNow())
-    mutex = threading.Lock()# 创建锁
+    mutex = threading.Lock() # 创建锁
     for ip in IPList:
         index += 1
         a = threading.Thread(target=setSheetData, args=(ip, sheet, index))
