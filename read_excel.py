@@ -12,8 +12,8 @@ curDir = os.getcwd()
 
 data = xlrd.open_workbook(curDir + '/ip.xlsx')
 sheet = data.sheet_by_name('IP')
-#print(sheet.nrows)  #行数
-#print(sheet.ncols)  #列数
+#print(sheet.nrows)  # 行数
+#print(sheet.ncols)  # 列数
 
 
 with open(curDir + '/IP.tmp', 'w') as f:
