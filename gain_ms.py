@@ -51,18 +51,18 @@ def setFileData(ip, f, index):
     except:
         lostStr = cmd_out[-1].split(",")[2].split(" ")[1]#+' Loss'
         speedStr = "NoPing"
-    mutex.acquire()#取得锁 
+    mutex.acquire()# 取得锁 
     #f.write(ip[0]+"\t"+ip[1]+"\t"+ip[2]+"\t"+speedStr+"\t"+lostStr+"\n")
     f.write(ip[0]+" "+ip[1]+" "+ip[2]+" "+speedStr+" "+lostStr+"\n")
     print("finish %s %s %s" % (ip[0], ip[1], ip[2]))
-    mutex.release()#释放锁   
+    mutex.release()# 释放锁   
     
 threads = [] 
 if 0==len(IPList):
     print("no data")
 else:
     print("start:", getNow())
-    mutex = threading.Lock()#创建锁
+    mutex = threading.Lock()# 创建锁
     for ip in IPList:
         index += 1
         a = threading.Thread(target=setFileData, args=(ip, f, index))
