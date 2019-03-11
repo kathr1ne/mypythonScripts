@@ -1,0 +1,3 @@
+2018-10-09 16:37:03 BasicInfoAlarm.py[27]: INFO Use the already obtained token
+2018-10-09 16:37:03 connectionpool.py[758]: INFO Starting new HTTPS connection (1): qyapi.weixin.qq.com
+2018-10-09 16:37:04 BasicInfoAlarm.py[60]: WARNING api freq out of limit, hint: [1539074224_4_27a3b3f10194f2f229c68d855e9fef70], more info at https://open.work.weixin.qq.com/devtool/query?e=45009
