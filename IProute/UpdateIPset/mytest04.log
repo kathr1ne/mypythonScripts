@@ -1,0 +1,12 @@
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 34.192.146.250(us) in NetworkSegment: 34.192.0.0/11, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 223.118.9.128(us) in NetworkSegment: 223.118.9.0/24, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 223.118.9.120(us) in NetworkSegment: 223.118.9.0/24, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[48]: WARNING IP: 180.125.35.47(kr) can't find it from kr.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 52.22.130.25(us) in NetworkSegment: 52.20.0.0/14, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 54.210.174.17(us) in NetworkSegment: 54.208.0.0/13, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 54.88.180.72(us) in NetworkSegment: 54.88.0.0/14, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 52.2.240.170(us) in NetworkSegment: 52.0.0.0/12, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 54.86.133.234(us) in NetworkSegment: 54.80.0.0/13, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[42]: INFO IP: 54.85.64.151(us) in NetworkSegment: 54.80.0.0/13, us.list
+2018-07-11 01:35:11 UpdateIPset04.py[39]: ERROR IP: 54.84.212.75(hk) find in us.list NetworkSegmen: 54.80.0.0/13
+2018-07-11 01:35:11 UpdateIPset04.py[46]: INFO IP: 52.85.151.1(hk) can't find it from us.list

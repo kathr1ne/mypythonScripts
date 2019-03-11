@@ -1,0 +1,60 @@
+2018-07-09 01:06:54 UpdateIPset02.py[26]: INFO IP: 34.192.146.250 in Network segment: 34.192.0.0/11
+2018-07-09 01:06:54 UpdateIPset02.py[26]: INFO IP: 223.118.9.128 in Network segment: 223.118.9.0/24
+2018-07-09 01:06:54 UpdateIPset02.py[26]: INFO IP: 223.118.9.120 in Network segment: 223.118.9.0/24
+2018-07-09 01:06:54 UpdateIPset02.py[31]: WARNING IP: 180.125.35.47 can't find it from /home/kongshuai/ipset/setlist/us.list
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 34.192.146.250 in Network segment: 34.192.0.0/11
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 223.118.9.128 in Network segment: 223.118.9.0/24
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 223.118.9.120 in Network segment: 223.118.9.0/24
+2018-07-09 01:08:15 UpdateIPset02.py[31]: WARNING IP: 180.125.35.47 can't find it from /home/kongshuai/ipset/setlist/us.list
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 52.22.130.25 in Network segment: 52.20.0.0/14
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 54.210.174.17 in Network segment: 54.208.0.0/13
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 54.88.180.72 in Network segment: 54.88.0.0/14
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 52.2.240.170 in Network segment: 52.0.0.0/12
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 54.86.133.234 in Network segment: 54.80.0.0/13
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 54.85.64.151 in Network segment: 54.80.0.0/13
+2018-07-09 01:08:15 UpdateIPset02.py[26]: INFO IP: 54.84.212.75 in Network segment: 54.80.0.0/13
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 34.192.146.250 in Network segment: 34.192.0.0/11
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 223.118.9.128 in Network segment: 223.118.9.0/24
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 223.118.9.120 in Network segment: 223.118.9.0/24
+2018-07-09 01:20:43 UpdateIPset02.py[31]: WARNING IP: 180.125.35.47 can't find it from /home/kongshuai/ipset/setlist/us.list
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 52.22.130.25 in Network segment: 52.20.0.0/14
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 54.210.174.17 in Network segment: 54.208.0.0/13
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 54.88.180.72 in Network segment: 54.88.0.0/14
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 52.2.240.170 in Network segment: 52.0.0.0/12
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 54.86.133.234 in Network segment: 54.80.0.0/13
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 54.85.64.151 in Network segment: 54.80.0.0/13
+2018-07-09 01:20:43 UpdateIPset02.py[26]: INFO IP: 54.84.212.75 in Network segment: 54.80.0.0/13
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 34.192.146.250 in Network segment: 34.192.0.0/11
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 223.118.9.128 in Network segment: 223.118.9.0/24
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 223.118.9.120 in Network segment: 223.118.9.0/24
+2018-07-09 01:20:55 UpdateIPset02.py[31]: WARNING IP: 180.125.35.47 can't find it from /home/kongshuai/ipset/setlist/us.list
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 52.22.130.25 in Network segment: 52.20.0.0/14
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 54.210.174.17 in Network segment: 54.208.0.0/13
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 54.88.180.72 in Network segment: 54.88.0.0/14
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 52.2.240.170 in Network segment: 52.0.0.0/12
+2018-07-09 01:20:55 UpdateIPset02.py[26]: INFO IP: 54.86.133.234 in Network segment: 54.80.0.0/13
+2018-07-09 01:20:56 UpdateIPset02.py[26]: INFO IP: 54.85.64.151 in Network segment: 54.80.0.0/13
+2018-07-09 01:20:56 UpdateIPset02.py[26]: INFO IP: 54.84.212.75 in Network segment: 54.80.0.0/13
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 34.192.146.250 in Network segment: 34.192.0.0/11
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 223.118.9.128 in Network segment: 223.118.9.0/24
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 223.118.9.120 in Network segment: 223.118.9.0/24
+2018-07-09 01:25:16 UpdateIPset02.py[31]: WARNING IP: 180.125.35.47 can't find it from /home/kongshuai/ipset/setlist/us.list
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 52.22.130.25 in Network segment: 52.20.0.0/14
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 54.210.174.17 in Network segment: 54.208.0.0/13
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 54.88.180.72 in Network segment: 54.88.0.0/14
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 52.2.240.170 in Network segment: 52.0.0.0/12
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 54.86.133.234 in Network segment: 54.80.0.0/13
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 54.85.64.151 in Network segment: 54.80.0.0/13
+2018-07-09 01:25:16 UpdateIPset02.py[26]: INFO IP: 54.84.212.75 in Network segment: 54.80.0.0/13
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 34.192.146.250 in Network segment: 34.192.0.0/11
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 223.118.9.128 in Network segment: 223.118.9.0/24
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 223.118.9.120 in Network segment: 223.118.9.0/24
+2018-07-11 00:27:29 UpdateIPset02.py[31]: WARNING IP: 180.125.35.47 can't find it from /home/kongshuai/ipset/setlist/us.list
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 52.22.130.25 in Network segment: 52.20.0.0/14
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 54.210.174.17 in Network segment: 54.208.0.0/13
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 54.88.180.72 in Network segment: 54.88.0.0/14
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 52.2.240.170 in Network segment: 52.0.0.0/12
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 54.86.133.234 in Network segment: 54.80.0.0/13
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 54.85.64.151 in Network segment: 54.80.0.0/13
+2018-07-11 00:27:29 UpdateIPset02.py[26]: INFO IP: 54.84.212.75 in Network segment: 54.80.0.0/13
+2018-07-11 00:27:29 UpdateIPset02.py[31]: WARNING IP: 52.85.151.1 can't find it from /home/kongshuai/ipset/setlist/us.list
