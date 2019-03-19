@@ -1,0 +1,465 @@
+Wed Nov 21 04:00:07 2018 WARNING: Using --management on a TCP port WITHOUT passwords is STRONGLY discouraged and considered insecure
+Wed Nov 21 04:00:07 2018 WARNING: POTENTIALLY DANGEROUS OPTION --verify-client-cert none|optional (or --client-cert-not-required) may accept clients which do not present a certificate
+Wed Nov 21 04:00:07 2018 WARNING: file '/etc/openvpn/keys/server.key' is group or others accessible
+Wed Nov 21 04:00:07 2018 WARNING: file '/etc/openvpn/keys/ta.key' is group or others accessible
+Wed Nov 21 04:00:07 2018 OpenVPN 2.4.5 [git:master/5a5afb3eed95fda2] x86_64-unknown-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [MH/PKTINFO] [AEAD] built on Nov  9 2018
+Wed Nov 21 04:00:07 2018 library versions: OpenSSL 1.0.2k-fips  26 Jan 2017, LZO 2.06
+Wed Nov 21 04:00:07 2018 WARNING: --keepalive option is missing from server config
+Wed Nov 21 04:00:07 2018 NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+Wed Nov 21 04:00:07 2018 RADIUS-PLUGIN: Configfile name: /etc/openvpn/plugin/radiusplugin0.cnf.
+Wed Nov 21 04:00:07 2018 ******* WARNING *******: '--cipher none' was specified. This means NO encryption will be performed and tunnelled data WILL be transmitted in clear text over the network! PLEASE DO RECONSIDER THIS SETTING!
+Wed Nov 21 04:00:07 2018 Outgoing Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Nov 21 04:00:07 2018 Incoming Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Nov 21 04:00:07 2018 TUN/TAP device tun0 opened
+Wed Nov 21 04:00:07 2018 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Wed Nov 21 04:00:07 2018 /usr/sbin/ifconfig tun0 10.67.3.129 netmask 255.255.255.192 mtu 1500 broadcast 10.67.3.191
+/etc/openvpn/script/route-up: line 11: /dev/tty: No such device or address
+/etc/openvpn/script/route-up: line 12: /dev/tty: No such device or address
+Wed Nov 21 04:00:08 2018 Could not determine IPv4/IPv6 protocol. Using AF_INET
+Wed Nov 21 04:00:08 2018 UDPv4 link local (bound): [AF_INET]192.168.67.3:54
+Wed Nov 21 04:00:08 2018 UDPv4 link remote: [AF_UNSPEC]
+Wed Nov 21 04:00:08 2018 Initialization Sequence Completed
+Wed Nov 21 04:00:34 2018 TLS Error: local/remote TLS keys are out of sync: [AF_INET]111.18.36.163:22519 [0]
+Wed Nov 21 04:01:00 2018 113.222.196.235:9603 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:01:03 2018 peer info: IV_VER=2.3.6
+Wed Nov 21 04:01:03 2018 peer info: IV_PLAT=linux
+Wed Nov 21 04:01:03 2018 peer info: IV_PROTO=2
+Wed Nov 21 04:01:03 2018 RADIUS-PLUGIN: FOREGROUND THREAD: Auth_user_pass_verify thread started.
+Wed Nov 21 04:01:03 2018 RADIUS-PLUGIN: FOREGROUND THREAD: New user.
+Wed Nov 21 04:01:04 2018 223.74.245.175:12453 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:01:06 2018 RADIUS-PLUGIN: Got no response from radius server.
+Wed Nov 21 04:01:06 2018 Error: RADIUS-PLUGIN: BACKGROUND  AUTH: Auth failed!.
+
+Wed Nov 21 04:01:06 2018 RADIUS-PLUGIN: FOREGROUND THREAD: Error receiving auth confirmation from background process.
+Wed Nov 21 04:01:06 2018 PLUGIN_CALL: plugin function PLUGIN_AUTH_USER_PASS_VERIFY failed with status 1: /lib64/radiusplugin.so
+Wed Nov 21 04:01:06 2018 TLS Auth Error: Auth Username/Password verification failed for peer
+Wed Nov 21 04:01:06 2018 WARNING: 'link-mtu' is used inconsistently, local='link-mtu 1526', remote='link-mtu 1558'
+Wed Nov 21 04:01:06 2018 WARNING: 'tun-mtu' is used inconsistently, local='tun-mtu 1500', remote='tun-mtu 1532'
+Wed Nov 21 04:01:07 2018 113.97.30.13:57275 Control Channel: TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA
+Wed Nov 21 04:01:07 2018 113.97.30.13:57275 Peer Connection Initiated with [AF_INET]113.97.30.13:57275
+Wed Nov 21 04:01:10 2018 113.97.30.13:57275 TLS Error: local/remote TLS keys are out of sync: [AF_INET]113.97.30.13:57275 [0]
+Wed Nov 21 04:01:15 2018 113.222.196.235:9609 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:01:31 2018 113.222.196.235:9612 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:01:37 2018 peer info: IV_VER=2.3.6
+Wed Nov 21 04:01:37 2018 peer info: IV_PLAT=linux
+Wed Nov 21 04:01:37 2018 peer info: IV_PROTO=2
+Wed Nov 21 04:01:37 2018 RADIUS-PLUGIN: FOREGROUND THREAD: New user.
+Wed Nov 21 04:01:40 2018 RADIUS-PLUGIN: Got no response from radius server.
+Wed Nov 21 04:01:40 2018 Error: RADIUS-PLUGIN: BACKGROUND  AUTH: Auth failed!.
+
+Wed Nov 21 04:01:40 2018 RADIUS-PLUGIN: FOREGROUND THREAD: Error receiving auth confirmation from background process.
+Wed Nov 21 04:01:40 2018 PLUGIN_CALL: plugin function PLUGIN_AUTH_USER_PASS_VERIFY failed with status 1: /lib64/radiusplugin.so
+Wed Nov 21 04:01:40 2018 TLS Auth Error: Auth Username/Password verification failed for peer
+Wed Nov 21 04:01:40 2018 WARNING: 'link-mtu' is used inconsistently, local='link-mtu 1526', remote='link-mtu 1558'
+Wed Nov 21 04:01:40 2018 WARNING: 'tun-mtu' is used inconsistently, local='tun-mtu 1500', remote='tun-mtu 1532'
+Wed Nov 21 04:01:41 2018 113.97.30.13:36896 Control Channel: TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA
+Wed Nov 21 04:01:41 2018 113.97.30.13:36896 Peer Connection Initiated with [AF_INET]113.97.30.13:36896
+Wed Nov 21 04:01:43 2018 113.97.30.13:36896 TLS Error: local/remote TLS keys are out of sync: [AF_INET]113.97.30.13:36896 [0]
+Wed Nov 21 04:01:45 2018 113.97.30.13:36896 TLS Error: local/remote TLS keys are out of sync: [AF_INET]113.97.30.13:36896 [0]
+Wed Nov 21 04:01:48 2018 113.222.196.235:9621 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:02:04 2018 113.222.196.235:9624 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:02:06 2018 111.18.36.163:22522 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:02:20 2018 113.222.196.235:9635 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:02:36 2018 113.222.196.235:9642 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:02:53 2018 113.222.196.235:9648 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:03:08 2018 113.222.196.235:9651 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:03:24 2018 113.222.196.235:9661 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:03:40 2018 113.222.196.235:9668 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:03:56 2018 113.222.196.235:9674 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:04:12 2018 113.222.196.235:9679 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:04:28 2018 113.222.196.235:9685 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:04:44 2018 113.222.196.235:9691 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:05:00 2018 113.222.196.235:9694 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:05:17 2018 113.222.196.235:9700 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:05:33 2018 113.222.196.235:9706 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:05:49 2018 113.222.196.235:9710 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:06:05 2018 113.222.196.235:9713 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:06:21 2018 113.222.196.235:9719 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:06:38 2018 113.222.196.235:9725 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:06:53 2018 113.222.196.235:9730 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:07:10 2018 113.222.196.235:9737 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:07:26 2018 113.222.196.235:9743 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:07:42 2018 113.222.196.235:9748 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:07:58 2018 113.222.196.235:9756 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:08:14 2018 113.222.196.235:9759 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:08:30 2018 113.222.196.235:9768 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:08:46 2018 113.222.196.235:9773 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:09:02 2018 113.222.196.235:9780 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:09:18 2018 113.222.196.235:9791 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:09:34 2018 113.222.196.235:9793 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:09:50 2018 113.222.196.235:9811 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:10:06 2018 113.222.196.235:9815 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:10:23 2018 113.222.196.235:9820 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:10:40 2018 113.222.196.235:9827 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:10:55 2018 113.222.196.235:9841 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:11:11 2018 113.222.196.235:9847 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:11:27 2018 113.222.196.235:9850 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:11:44 2018 113.222.196.235:9856 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:11:59 2018 113.222.196.235:9859 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:12:15 2018 113.222.196.235:9862 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:12:31 2018 113.222.196.235:9868 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:12:47 2018 113.222.196.235:9872 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:13:03 2018 113.222.196.235:9874 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:13:19 2018 113.222.196.235:9882 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:13:35 2018 113.222.196.235:9885 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:13:51 2018 113.222.196.235:9892 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:14:08 2018 113.222.196.235:9897 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:14:24 2018 113.222.196.235:9902 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:14:40 2018 113.222.196.235:9905 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:14:56 2018 113.222.196.235:9908 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:15:13 2018 113.222.196.235:9913 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:15:30 2018 113.222.196.235:9924 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:15:45 2018 113.222.196.235:9928 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:16:01 2018 113.222.196.235:9938 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:16:17 2018 113.222.196.235:9944 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:16:33 2018 113.222.196.235:9955 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:16:50 2018 113.222.196.235:9959 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:17:05 2018 113.222.196.235:9968 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:17:22 2018 113.222.196.235:9971 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:17:38 2018 113.222.196.235:9980 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:17:54 2018 113.222.196.235:9988 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:18:10 2018 113.222.196.235:9992 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:18:26 2018 113.222.196.235:9998 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:18:42 2018 113.222.196.235:10007 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:18:58 2018 113.222.196.235:10016 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:19:14 2018 113.222.196.235:10021 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:19:30 2018 113.222.196.235:10024 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:19:46 2018 113.222.196.235:10031 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:20:02 2018 113.222.196.235:10040 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:20:18 2018 113.222.196.235:10051 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:20:34 2018 113.222.196.235:10055 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:20:51 2018 113.222.196.235:10062 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:21:07 2018 113.222.196.235:10068 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:21:23 2018 113.222.196.235:10072 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:21:39 2018 113.222.196.235:10079 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:21:55 2018 113.222.196.235:10086 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:22:11 2018 113.222.196.235:10090 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:22:27 2018 113.222.196.235:10094 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:22:43 2018 113.222.196.235:10101 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:22:59 2018 113.222.196.235:10106 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:23:16 2018 113.222.196.235:10112 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:23:31 2018 113.222.196.235:10129 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:23:48 2018 113.222.196.235:10133 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:24:04 2018 113.222.196.235:10140 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:24:20 2018 113.222.196.235:10148 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:24:36 2018 113.222.196.235:10154 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:24:52 2018 113.222.196.235:10158 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:25:08 2018 113.222.196.235:10166 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:25:24 2018 113.222.196.235:10170 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:25:40 2018 113.222.196.235:10174 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:25:56 2018 113.222.196.235:10182 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:26:12 2018 113.222.196.235:10191 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:26:29 2018 113.222.196.235:10196 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:26:45 2018 113.222.196.235:10199 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:27:00 2018 113.222.196.235:10205 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:27:16 2018 113.222.196.235:10207 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:27:33 2018 113.222.196.235:10215 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:27:49 2018 113.222.196.235:10221 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:28:05 2018 113.222.196.235:10224 [UNDEF] Inactivity timeout (--ping-exit), exing
+Wed Nov 21 04:28:21 2018 113.222.196.235:10234 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:28:37 2018 113.222.196.235:10237 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:28:53 2018 113.222.196.235:10246 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:29:09 2018 113.222.196.235:10254 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:29:25 2018 113.222.196.235:10262 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:29:41 2018 113.222.196.235:10272 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:29:57 2018 113.222.196.235:10279 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:30:14 2018 113.222.196.235:10282 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:30:30 2018 113.222.196.235:10293 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:30:47 2018 113.222.196.235:10298 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:31:02 2018 113.222.196.235:10306 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:31:18 2018 113.222.196.235:10311 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:31:34 2018 113.222.196.235:10318 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:31:50 2018 113.222.196.235:10321 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:32:06 2018 113.222.196.235:10328 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:32:22 2018 113.222.196.235:10335 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:32:38 2018 113.222.196.235:10344 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:32:54 2018 113.222.196.235:10350 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:33:10 2018 113.222.196.235:10356 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:33:26 2018 113.222.196.235:10360 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:33:42 2018 113.222.196.235:10368 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:33:59 2018 113.222.196.235:10371 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:34:15 2018 113.222.196.235:10378 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:34:31 2018 113.222.196.235:10383 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:34:48 2018 113.222.196.235:10390 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:35:03 2018 113.222.196.235:10396 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:35:19 2018 113.222.196.235:10405 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:35:35 2018 113.222.196.235:10408 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:35:51 2018 113.222.196.235:10414 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:36:07 2018 113.222.196.235:10417 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:36:23 2018 113.222.196.235:10420 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:36:39 2018 113.222.196.235:10428 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:36:57 2018 113.222.196.235:10432 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:37:12 2018 113.222.196.235:10439 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:37:28 2018 113.222.196.235:10444 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:37:45 2018 113.222.196.235:10452 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:38:00 2018 113.222.196.235:10457 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:38:16 2018 113.222.196.235:10462 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:38:32 2018 113.222.196.235:10484 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:38:48 2018 113.222.196.235:10489 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:39:04 2018 113.222.196.235:10491 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:39:20 2018 113.222.196.235:10499 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:39:36 2018 113.222.196.235:10505 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:39:52 2018 113.222.196.235:10508 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:40:08 2018 113.222.196.235:10513 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:40:25 2018 113.222.196.235:10517 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:40:41 2018 113.222.196.235:10521 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:40:57 2018 113.222.196.235:10524 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:41:13 2018 113.222.196.235:10529 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:41:29 2018 113.222.196.235:10533 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:41:45 2018 113.222.196.235:10541 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:42:01 2018 113.222.196.235:10546 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:42:17 2018 113.222.196.235:10552 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:42:33 2018 113.222.196.235:10557 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:42:50 2018 113.222.196.235:10560 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:43:05 2018 113.222.196.235:10568 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:43:21 2018 113.222.196.235:10572 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:43:37 2018 113.222.196.235:10579 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:43:54 2018 113.222.196.235:10584 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:44:10 2018 113.222.196.235:10600 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:44:26 2018 113.222.196.235:10602 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:44:42 2018 113.222.196.235:10608 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:44:58 2018 113.222.196.235:10614 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:45:14 2018 113.222.196.235:10619 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:45:31 2018 113.222.196.235:10627 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:45:46 2018 113.222.196.235:10631 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:46:02 2018 113.222.196.235:10644 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:46:18 2018 113.222.196.235:10649 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:46:35 2018 113.222.196.235:10656 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:46:51 2018 113.222.196.235:10661 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:47:07 2018 113.222.196.235:10668 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:47:23 2018 113.222.196.235:10672 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:47:39 2018 113.222.196.235:10683 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:47:55 2018 113.222.196.235:10693 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:48:12 2018 113.222.196.235:10697 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:48:27 2018 113.222.196.235:10705 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:48:44 2018 113.222.196.235:10710 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:48:59 2018 113.222.196.235:10717 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:49:15 2018 113.222.196.235:10722 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:49:31 2018 113.222.196.235:10730 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:49:47 2018 113.222.196.235:10736 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:50:04 2018 113.222.196.235:10749 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:50:20 2018 113.222.196.235:10756 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:50:37 2018 113.222.196.235:10762 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:50:52 2018 113.222.196.235:10772 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:51:08 2018 113.222.196.235:10774 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:51:25 2018 113.222.196.235:10780 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:51:40 2018 113.222.196.235:10793 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:51:57 2018 113.222.196.235:10801 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:52:12 2018 113.222.196.235:10807 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:52:28 2018 113.222.196.235:10809 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:52:44 2018 113.222.196.235:10816 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:53:00 2018 113.222.196.235:10824 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:53:16 2018 113.222.196.235:10826 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:53:33 2018 113.222.196.235:10833 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:53:49 2018 113.222.196.235:10843 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:54:05 2018 113.222.196.235:10851 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:54:21 2018 113.222.196.235:10854 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:54:37 2018 113.222.196.235:10863 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:54:53 2018 113.222.196.235:10865 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:55:10 2018 113.222.196.235:10877 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:55:25 2018 113.222.196.235:10884 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:55:41 2018 113.222.196.235:10890 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:55:57 2018 113.222.196.235:10896 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:56:13 2018 113.222.196.235:10901 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:56:29 2018 113.222.196.235:10905 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:56:46 2018 113.222.196.235:10911 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:57:02 2018 113.222.196.235:10915 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:57:18 2018 113.222.196.235:10919 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:57:34 2018 113.222.196.235:10928 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:57:50 2018 113.222.196.235:10931 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:58:06 2018 113.222.196.235:10934 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:58:22 2018 113.222.196.235:10939 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:58:38 2018 113.222.196.235:10942 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:58:54 2018 113.222.196.235:10950 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:59:10 2018 113.222.196.235:10954 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:59:26 2018 113.222.196.235:10961 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:59:42 2018 113.222.196.235:10969 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 04:59:58 2018 113.222.196.235:10973 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:00:14 2018 113.222.196.235:10976 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:00:31 2018 113.222.196.235:10979 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:00:47 2018 113.222.196.235:10981 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:01:03 2018 113.222.196.235:10986 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:01:20 2018 113.222.196.235:10998 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:01:35 2018 113.222.196.235:11007 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:01:51 2018 113.222.196.235:11018 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:02:07 2018 113.222.196.235:11022 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:02:23 2018 113.222.196.235:11028 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:02:39 2018 113.222.196.235:11038 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:02:57 2018 113.222.196.235:11048 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:03:12 2018 113.222.196.235:11055 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:03:28 2018 113.222.196.235:11059 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:03:45 2018 113.222.196.235:11064 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:04:01 2018 113.222.196.235:11068 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:04:16 2018 113.222.196.235:11075 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:04:32 2018 113.222.196.235:11079 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:04:48 2018 113.222.196.235:11084 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:05:04 2018 113.222.196.235:11092 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:05:21 2018 113.222.196.235:11095 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:05:37 2018 113.222.196.235:11100 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:05:53 2018 113.222.196.235:11103 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:06:09 2018 113.222.196.235:11115 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:06:25 2018 113.222.196.235:11121 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:06:41 2018 113.222.196.235:11132 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:06:57 2018 113.222.196.235:11139 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:07:14 2018 113.222.196.235:11144 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:07:29 2018 113.222.196.235:11149 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:07:46 2018 113.222.196.235:11152 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:08:01 2018 113.222.196.235:11158 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:08:17 2018 113.222.196.235:11166 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:08:34 2018 113.222.196.235:11169 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:08:50 2018 113.222.196.235:11175 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:09:06 2018 113.222.196.235:11182 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:09:22 2018 113.222.196.235:11190 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:09:38 2018 113.222.196.235:11196 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:09:54 2018 113.222.196.235:11201 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:10:10 2018 113.222.196.235:11209 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:10:26 2018 113.222.196.235:11213 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:10:42 2018 113.222.196.235:11221 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:10:58 2018 113.222.196.235:11226 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:11:14 2018 113.222.196.235:11228 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:11:30 2018 113.222.196.235:11237 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:11:46 2018 113.222.196.235:11245 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:12:02 2018 113.222.196.235:11257 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:12:19 2018 113.222.196.235:11262 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:12:36 2018 113.222.196.235:11271 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:12:51 2018 113.222.196.235:11277 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:13:07 2018 113.222.196.235:11285 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:13:23 2018 113.222.196.235:11290 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:13:39 2018 113.222.196.235:11295 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:13:55 2018 113.222.196.235:11301 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:14:11 2018 113.222.196.235:11304 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:14:27 2018 113.222.196.235:11315 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:14:43 2018 113.222.196.235:11319 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:14:59 2018 113.222.196.235:11323 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:15:15 2018 113.222.196.235:11334 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:15:31 2018 113.222.196.235:11339 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:15:48 2018 113.222.196.235:11345 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:16:05 2018 113.222.196.235:11353 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:16:20 2018 113.222.196.235:11362 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:16:36 2018 113.222.196.235:11366 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:16:52 2018 113.222.196.235:11369 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:17:08 2018 113.222.196.235:11371 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:17:24 2018 113.222.196.235:11374 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:17:40 2018 113.222.196.235:11378 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:17:56 2018 113.222.196.235:11383 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:18:12 2018 113.222.196.235:11388 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:18:28 2018 113.222.196.235:11393 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:18:45 2018 113.222.196.235:11400 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:19:01 2018 113.222.196.235:11408 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:19:17 2018 113.222.196.235:11413 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:19:33 2018 113.222.196.235:11419 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:19:49 2018 113.222.196.235:11426 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:20:05 2018 113.222.196.235:11431 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:20:21 2018 113.222.196.235:11438 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:20:37 2018 113.222.196.235:11444 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:20:53 2018 113.222.196.235:11446 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:21:09 2018 113.222.196.235:11451 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:21:25 2018 113.222.196.235:11453 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:21:41 2018 113.222.196.235:11459 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:21:57 2018 113.222.196.235:11465 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:22:14 2018 113.222.196.235:11469 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:22:30 2018 113.222.196.235:11472 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:22:46 2018 113.222.196.235:11477 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:23:02 2018 113.222.196.235:11479 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:23:18 2018 113.222.196.235:11487 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:23:34 2018 113.222.196.235:11492 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:23:50 2018 113.222.196.235:11497 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:24:06 2018 113.222.196.235:11503 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:24:22 2018 113.222.196.235:11510 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:24:38 2018 113.222.196.235:11515 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:24:54 2018 113.222.196.235:11518 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:25:11 2018 113.222.196.235:11529 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:25:27 2018 113.222.196.235:11533 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:25:43 2018 113.222.196.235:11542 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:25:59 2018 113.222.196.235:11544 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:25:59 2018 peer info: IV_VER=2.3.6
+Wed Nov 21 05:25:59 2018 peer info: IV_PLAT=linux
+Wed Nov 21 05:25:59 2018 peer info: IV_PROTO=2
+Wed Nov 21 05:25:59 2018 RADIUS-PLUGIN: FOREGROUND THREAD: New user.
+Wed Nov 21 05:25:59 2018 RADIUS-PLUGIN: No attributes Acct Interim Interval or bad length.
+Wed Nov 21 05:25:59 2018 RADIUS-PLUGIN: Client config file was not written, overwriteccfiles is false 
+.Wed Nov 21 05:25:59 2018 RADIUS-PLUGIN: FOREGROUND THREAD: Add user to map.
+Wed Nov 21 05:25:59 2018 TLS: Username/Password authentication succeeded for username '496537746@qq.com&30&2&BC54F9104126' [CN SET]
+Wed Nov 21 05:25:59 2018 WARNING: 'link-mtu' is used inconsistently, local='link-mtu 1526', remote='link-mtu 1558'
+Wed Nov 21 05:25:59 2018 WARNING: 'tun-mtu' is used inconsistently, local='tun-mtu 1500', remote='tun-mtu 1532'
+Wed Nov 21 05:26:00 2018 219.128.84.17:4349 Control Channel: TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA
+Wed Nov 21 05:26:00 2018 219.128.84.17:4349 [496537746@qq.com&30&2&BC54F9104126] Peer Connection Initiated with [AF_INET]219.128.84.17:4349
+Wed Nov 21 05:26:00 2018 496537746@qq.com&30&2&BC54F9104126/219.128.84.17:4349 MULTI_sva: pool returned IPv4=10.67.3.130, IPv6=(Not enabled)
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+Wed Nov 21 05:26:02 2018 496537746@qq.com&30&2&BC54F9104126/219.128.84.17:4349 ******* WARNING *******: '--cipher none' was specified. This means NO encryption will be performed and tunnelled data WILL be transmitted in clear text over the network! PLEASE DO RECONSIDER THIS SETTING!
+Wed Nov 21 05:26:02 2018 496537746@qq.com&30&2&BC54F9104126/219.128.84.17:4349 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Nov 21 05:26:02 2018 496537746@qq.com&30&2&BC54F9104126/219.128.84.17:4349 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+Wed Nov 21 05:26:15 2018 113.222.196.235:11552 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:26:31 2018 113.222.196.235:11557 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:26:48 2018 113.222.196.235:11565 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:27:03 2018 113.222.196.235:11574 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:27:19 2018 113.222.196.235:11579 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:27:35 2018 113.222.196.235:11583 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:27:51 2018 113.222.196.235:11588 [UNDEF] Inactivity timeout (--ping-exit), exiting
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+RTNETLINK answers: Invalid argument
+We have an error talking to the kernel
+Wed Nov 21 05:28:07 2018 113.222.196.235:11592 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:28:23 2018 113.222.196.235:11598 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:28:39 2018 113.222.196.235:11604 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:28:56 2018 113.222.196.235:11610 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:29:12 2018 113.222.196.235:11615 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:29:28 2018 113.222.196.235:11618 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:29:44 2018 113.222.196.235:11625 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:30:00 2018 113.222.196.235:11629 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:30:16 2018 113.222.196.235:11638 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:30:32 2018 113.222.196.235:11640 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:30:48 2018 113.222.196.235:11645 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:31:04 2018 113.222.196.235:11648 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:31:20 2018 113.222.196.235:11655 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:31:37 2018 113.222.196.235:11658 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:31:53 2018 113.222.196.235:11666 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:32:09 2018 113.222.196.235:11669 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:32:25 2018 113.222.196.235:11681 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:32:42 2018 113.222.196.235:11684 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:32:58 2018 113.222.196.235:11690 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:33:13 2018 113.222.196.235:11695 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:33:29 2018 113.222.196.235:11701 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:33:45 2018 113.222.196.235:11704 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:34:01 2018 113.222.196.235:11711 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:34:18 2018 113.222.196.235:11715 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:34:33 2018 113.222.196.235:11720 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:34:50 2018 113.222.196.235:11727 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:35:06 2018 113.222.196.235:11731 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:35:22 2018 113.222.196.235:11742 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:35:38 2018 113.222.196.235:11747 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:35:55 2018 113.222.196.235:11754 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:36:10 2018 113.222.196.235:11759 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:36:26 2018 113.222.196.235:11762 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:36:42 2018 113.222.196.235:11767 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:36:58 2018 113.222.196.235:11771 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:37:14 2018 113.222.196.235:11776 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:37:31 2018 113.222.196.235:11781 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:37:47 2018 113.222.196.235:11790 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:38:03 2018 113.222.196.235:11794 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:38:20 2018 113.222.196.235:11805 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:38:35 2018 113.222.196.235:11807 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:38:51 2018 113.222.196.235:11814 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:39:07 2018 113.222.196.235:11821 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:39:23 2018 113.222.196.235:11828 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:39:39 2018 113.222.196.235:11833 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:39:55 2018 113.222.196.235:11840 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:40:12 2018 113.222.196.235:11844 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:40:28 2018 113.222.196.235:11852 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:40:44 2018 113.222.196.235:11856 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:41:00 2018 113.222.196.235:11863 [UNDEF] Inactivity timeout (--ping-exit), exiting
+Wed Nov 21 05:41:16 2018 113.222.196.235:11867 [UNDEF] Inactivity timeout (--ping-exit), exiting
