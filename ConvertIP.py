@@ -7,6 +7,11 @@ import sys
 
 
 def check_bit(src_ip):
+    """ 
+    :param IPv4
+    :return 15bit IPv4 
+    e.g. 0.0.0.0 -> 000.000.000.000
+    """
     items = src_ip.split('.')
     for k, v in enumerate(items):
         if len(v) == 1:
