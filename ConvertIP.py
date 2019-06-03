@@ -17,6 +17,9 @@ def check_bit(src_ip):
     return '.'.join(items)
 
 if __name__ == '__main__':
-    src_ip = sys.argv[1]
-    dst_ip = check_bit(src_ip)
-    print dst_ip
+    try:
+	src_ip = sys.argv[1]
+	dst_ip = check_bit(src_ip)
+	print dst_ip
+    except IndexError:
+	print '000.000.000.000'
