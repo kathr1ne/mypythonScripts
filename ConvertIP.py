@@ -5,6 +5,7 @@
 
 import sys
 
+
 def check_bit(src_ip):
     items = src_ip.split('.')
     for k, v in enumerate(items):
@@ -15,6 +16,7 @@ def check_bit(src_ip):
         elif len(v) == 3:
             pass
     return '.'.join(items)
+
 
 if __name__ == '__main__':
     try:
